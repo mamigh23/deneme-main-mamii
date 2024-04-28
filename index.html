@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="css/Main.css" />
+
+    <title>Can Tedarik Ve Teknik</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <nav class="nav container">
+        <div class="nav__data">
+          <a href="#" class="nav__logo">
+            <img src="img/CanTedarikveTeknik.png" alt="" />
+          </a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line nav__burger"></i>
+            <i class="ri-close-line nav__close"></i>
+          </div>
+        </div>
+
+        <!--=============== NAV MENU ===============-->
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="#" class="nav__link">Anasayfa</a></li>
+            <!--=============== DROPDOWN 1 ===============-->
+            <li class="dropdown__item">
+              <div class="nav__link">
+                Biz Kimiz ? <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+              <ul class="dropdown__menu">
+                <li>
+                  <a href="Misyonumuz.html" class="dropdown__link">
+                    Misyomuz
+                  </a>
+                </li>
+                <li>
+                  <a href="Vizyonumuz.html" class="dropdown__link">
+                    Vizyonumuz
+                  </a>
+                </li>
+                <li>
+                  <a href="Hakkımızda.html" class="dropdown__link">
+                    Hakkımızda
+                  </a>
+                </li>
+                <!--=============== DROPDOWN SUBMENU ===============-->
+              </ul>
+            </li>
+            <!--=============== DROPDOWN 2 ===============-->
+            <li><a href="İletişim.html" class="nav__link">İletişim</a></li>
+            <div class="language">
+              <div class="language-selected">
+                <img src="https://flagsapi.com/TR/flat/32.png" />Türkçe<i
+                  class="ri-arrow-down-s-line dropdown__arrow"
+                ></i>
+              </div>
+
+              <ul class="language-menu">
+                <li>
+                  <a href="#" class="EN"> English </a>
+                </li>
+
+                <li>
+                  <a href="#" class="TR"> Türkçe </a>
+                </li>
+              </ul>
+            </div>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--=============== MAIN JS ===============-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
